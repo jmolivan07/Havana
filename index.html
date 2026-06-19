@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Café de l'Havana</title>
+
+<style>
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height:100vh;
+  background-image:url("fons.jpg");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container{
+  width:88%;
+  max-width:420px;
+  text-align:center;
+  padding:28px 18px;
+}
+
+.logo{
+  max-width:330px;
+  width:90%;
+  margin-bottom:42px;
+  filter:drop-shadow(0 4px 6px rgba(0,0,0,0.25));
+}
+
+.boto{
+  display:block;
+  color:white;
+  text-decoration:none;
+  padding:20px;
+  margin:16px 0;
+  border-radius:18px;
+  font-size:22px;
+  font-weight:bold;
+  box-shadow:0 5px 12px rgba(0,0,0,0.25);
+}
+
+.gin{ background:rgba(39,174,96,0.92); }
+.cocktails{ background:rgba(235,87,87,0.92); }
+.mocktails{ background:rgba(47,128,237,0.92); }
+
+.boto:hover{
+  transform:scale(1.02);
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="logo_cafe_havana_transparente.png" alt="Café de l'Havana" class="logo">
+
+<a class="boto gin" href="GIN-TONICS.pdf">Gin Tònics</a>
+<a class="boto cocktails" href="COCKTAILS.pdf">Cocktails</a>
+<a class="boto mocktails" href="MOCKTAILS.pdf">Mocktails</a>
+
+</div>
+
+</body>
+</html>
